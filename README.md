@@ -74,7 +74,9 @@ We provide a simple demo in ```norm_rescale.py```, please modify and use it as y
 
 ## Acknowledgements
 Part of the code is adapted from previous works:
+
 [MoCo](https://github.com/facebookresearch/moco)
+
 We thank all the authors for their awesome repos.
 
 ## Citation

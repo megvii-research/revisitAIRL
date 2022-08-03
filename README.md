@@ -1,7 +1,7 @@
 # Revisiting the Critical Factors of  Augmentation-Invariant Representation Learning
 --------
 ## Introduction
-This repository is an official pytorch implementation of the paper Revisiting the Critical Factors of  Augmentation-Invariant Representation Learning (ECCV2022).
+This repository is an official pytorch implementation of the paper [Revisiting the Critical Factors of  Augmentation-Invariant Representation Learning](https://arxiv.org/abs/2208.00275) (ECCV2022).
 
 We release our framework to the public for the good of reproducibility. We hope it would be helpful for the community to develop new frameworks based on the fair benchmarking settings.
 
@@ -26,12 +26,10 @@ Notation:
 First, clone the repository locally:
 ```
 git clone https://github.com/megvii-research/revisitAIRL.git
-
 ```
 Second, install the dependencies:
 ```
 pip install -r requirements.txt
-
 ```
 
 ### Pre-training
@@ -80,7 +78,17 @@ Part of the code is adapted from previous works:
 We thank all the authors for their awesome repos.
 
 ## Citation
-The citation will be available soon.
+If you find this project useful for your research, please consider citing the paper.
+```
+@misc{huang2022revisiting,
+      title={Revisiting the Critical Factors of Augmentation-Invariant Representation Learning}, 
+      author={Junqiang Huang and Xiangwen Kong and Xiangyu Zhang},
+      year={2022},
+      eprint={2208.00275},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## Contact
 If you have any questions, feel free to open an issue or contact us at [kongxiangwen@megvii.com](mailto:kongxiangwen@megvii.com).
